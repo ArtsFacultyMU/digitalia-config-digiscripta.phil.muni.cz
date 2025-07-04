@@ -1,0 +1,19 @@
+uuid: 149905f4-77d2-4a36-aa90-e254c5b0931d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manuscript_scope
+    - node.type.text
+id: node.text.field_manuscript_scope
+field_name: field_manuscript_scope
+entity_type: node
+bundle: text
+label: 'MANUSCRIPT LOCALIZATION Scope'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

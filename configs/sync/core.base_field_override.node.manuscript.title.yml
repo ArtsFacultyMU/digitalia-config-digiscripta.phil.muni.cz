@@ -1,0 +1,18 @@
+uuid: 1270fea1-c75e-4e7c-b725-f6f2bd8e2f79
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.manuscript
+id: node.manuscript.title
+field_name: title
+entity_type: node
+bundle: manuscript
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

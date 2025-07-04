@@ -1,0 +1,19 @@
+uuid: 27bb34c7-1aa4-41bb-baab-1eef2c29757d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_old_id
+    - node.type.manuscript
+id: node.manuscript.field_old_id
+field_name: field_old_id
+entity_type: node
+bundle: manuscript
+label: 'Old ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

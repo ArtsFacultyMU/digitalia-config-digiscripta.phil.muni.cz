@@ -1,0 +1,9 @@
+uuid: 726dc297-0851-4559-867e-772a7149b631
+langcode: cs
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Edition'
+vid: digitalia_muni_edition
+description: null
+weight: 0
+new_revision: false

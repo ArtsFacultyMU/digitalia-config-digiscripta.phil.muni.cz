@@ -1,0 +1,33 @@
+uuid: 369f4444-e4aa-4f55-8573-b9005a161506
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contact_information.field_contact_type
+    - field.field.node.contact_information.field_gps
+    - field.field.node.contact_information.field_migration_id
+    - field.field.node.contact_information.field_place
+    - field.field.node.contact_information.field_street_and_number
+    - node.type.contact_information
+  module:
+    - user
+id: node.contact_information.teaser
+targetEntityType: node
+bundle: contact_information
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  field_contact_type: true
+  field_gps: true
+  field_migration_id: true
+  field_place: true
+  field_street_and_number: true
+  langcode: true
+  search_api_excerpt: true

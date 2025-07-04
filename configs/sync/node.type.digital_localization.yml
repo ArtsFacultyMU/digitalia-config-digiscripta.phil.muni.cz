@@ -1,0 +1,17 @@
+uuid: ba32a77c-4f8a-42c1-b58f-2b9ea130790b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'DIGITAL LOCALIZATION'
+type: digital_localization
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

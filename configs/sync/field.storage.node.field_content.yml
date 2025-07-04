@@ -1,0 +1,33 @@
+uuid: ea4f7592-ccc8-4d4c-8eb4-474d06b5f838
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_content
+field_name: field_content
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: edition
+      label: edition
+    -
+      value: translation
+      label: translation
+    -
+      value: bibliography
+      label: bibliography
+    -
+      value: n_a
+      label: N/A
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

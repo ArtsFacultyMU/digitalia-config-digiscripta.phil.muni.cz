@@ -1,0 +1,19 @@
+uuid: 7df60fbe-e7c0-4daf-b8cb-095d0a517b36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_old_id
+    - node.type.publication_stand_alone
+id: node.publication_stand_alone.field_old_id
+field_name: field_old_id
+entity_type: node
+bundle: publication_stand_alone
+label: 'Old ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

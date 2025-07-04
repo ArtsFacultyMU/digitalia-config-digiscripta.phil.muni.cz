@@ -1,0 +1,11 @@
+uuid: ded059e6-0da3-4ed3-822d-6e15225aa033
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.digitalia_muni_source
+id: taxonomy_term.digitalia_muni_source
+target_entity_type_id: taxonomy_term
+target_bundle: digitalia_muni_source
+default_langcode: cs
+language_alterable: false

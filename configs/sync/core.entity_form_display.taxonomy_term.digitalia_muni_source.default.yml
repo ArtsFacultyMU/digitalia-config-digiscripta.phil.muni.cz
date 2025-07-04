@@ -1,0 +1,60 @@
+uuid: 17ad7d2c-ce60-4d5f-9a93-a4baf54dded8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.digitalia_muni_source.field_id
+    - taxonomy.vocabulary.digitalia_muni_source
+  module:
+    - path
+    - text
+id: taxonomy_term.digitalia_muni_source.default
+targetEntityType: taxonomy_term
+bundle: digitalia_muni_source
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_id:
+    type: string_textfield
+    weight: 101
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

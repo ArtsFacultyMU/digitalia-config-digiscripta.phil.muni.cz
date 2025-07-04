@@ -1,0 +1,11 @@
+uuid: 824ac6e8-1c29-44c6-8370-e5cd9931abc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.digitalia_places
+id: taxonomy_term.digitalia_places
+target_entity_type_id: taxonomy_term
+target_bundle: digitalia_places
+default_langcode: site_default
+language_alterable: false

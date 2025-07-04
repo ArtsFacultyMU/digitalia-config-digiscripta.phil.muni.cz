@@ -1,0 +1,19 @@
+uuid: 1a3e657d-eaed-4742-8408-637f03267e71
+langcode: en
+status: true
+dependencies:
+  module:
+    - digitalia_muni_custom_field_types
+    - node
+id: node.field_gps
+field_name: field_gps
+entity_type: node
+type: digitalia_muni_custom_field_types_geolocation
+settings: {  }
+module: digitalia_muni_custom_field_types
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

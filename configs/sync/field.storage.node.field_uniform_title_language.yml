@@ -1,0 +1,36 @@
+uuid: 79cea4b5-8198-4f82-b629-8e27a5a8617d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_uniform_title_language
+field_name: field_uniform_title_language
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ces
+      label: ces
+    -
+      value: lat
+      label: lat
+    -
+      value: deu
+      label: deu
+    -
+      value: eng
+      label: eng
+    -
+      value: fra
+      label: fra
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

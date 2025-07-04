@@ -1,0 +1,17 @@
+uuid: 415d0be1-ff63-4c24-b9b1-897a15e7a1ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Person reference'
+type: person_reference
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: 3b693a63-d1f4-4f8c-babc-905f2ee2ea3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_viaf_identifier
+    - node.type.person
+id: node.person.field_viaf_identifier
+field_name: field_viaf_identifier
+entity_type: node
+bundle: person
+label: 'VIAF identifier'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

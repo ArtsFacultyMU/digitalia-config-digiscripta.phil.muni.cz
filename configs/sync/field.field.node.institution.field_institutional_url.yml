@@ -1,0 +1,23 @@
+uuid: 4c56ec9d-f2c4-425e-9f6b-09195057a744
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_institutional_url
+    - node.type.institution
+  module:
+    - link
+id: node.institution.field_institutional_url
+field_name: field_institutional_url
+entity_type: node
+bundle: institution
+label: 'Institutional URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

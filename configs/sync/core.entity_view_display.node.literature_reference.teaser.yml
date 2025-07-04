@@ -1,0 +1,31 @@
+uuid: f2a596b8-6afb-42d5-8a0a-06ccd4c342f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.literature_reference.field_literature
+    - field.field.node.literature_reference.field_migration_id
+    - field.field.node.literature_reference.field_note
+    - field.field.node.literature_reference.field_scope
+    - node.type.literature_reference
+  module:
+    - user
+id: node.literature_reference.teaser
+targetEntityType: node
+bundle: literature_reference
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  field_literature: true
+  field_migration_id: true
+  field_note: true
+  field_scope: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,29 @@
+uuid: 7b09fba2-da75-4c37-8f3b-bbc5f4cfc49b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_digital_localization
+    - node.type.digital_localization
+    - node.type.edition
+id: node.edition.field_digital_localization
+field_name: field_digital_localization
+entity_type: node
+bundle: edition
+label: 'DIGITAL LOCALIZATION'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      digital_localization: digital_localization
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

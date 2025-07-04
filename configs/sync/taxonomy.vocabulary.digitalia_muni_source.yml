@@ -1,0 +1,9 @@
+uuid: 4313efbd-5436-4a1a-8598-dd7f92a25cc1
+langcode: cs
+status: true
+dependencies: {  }
+name: 'Digitalia MUNI Source'
+vid: digitalia_muni_source
+description: null
+weight: 0
+new_revision: false

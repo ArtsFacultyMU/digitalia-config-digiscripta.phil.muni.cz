@@ -1,0 +1,19 @@
+uuid: b5c91da1-fa3c-4cf4-946c-e21ead641962
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_version
+    - node.type.text
+id: node.text.field_text_version
+field_name: field_text_version
+entity_type: node
+bundle: text
+label: 'Text version'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,43 @@
+uuid: 86d9254d-a165-4d77-a191-df2b9c7f41ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.person.field_biography
+    - field.field.node.person.field_birth_date
+    - field.field.node.person.field_birth_place
+    - field.field.node.person.field_death_date
+    - field.field.node.person.field_death_place
+    - field.field.node.person.field_first_name
+    - field.field.node.person.field_migration_id
+    - field.field.node.person.field_note
+    - field.field.node.person.field_surname
+    - field.field.node.person.field_viaf_identifier
+    - node.type.person
+  module:
+    - user
+id: node.person.teaser
+targetEntityType: node
+bundle: person
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  field_biography: true
+  field_birth_date: true
+  field_birth_place: true
+  field_death_date: true
+  field_death_place: true
+  field_first_name: true
+  field_migration_id: true
+  field_note: true
+  field_surname: true
+  field_viaf_identifier: true
+  langcode: true
+  search_api_excerpt: true

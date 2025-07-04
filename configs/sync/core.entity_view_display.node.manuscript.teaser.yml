@@ -1,0 +1,49 @@
+uuid: 8da91e48-60b7-4046-95d0-1c48899d2aee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.manuscript.field_datation
+    - field.field.node.manuscript.field_digital_localization
+    - field.field.node.manuscript.field_geographical_localization
+    - field.field.node.manuscript.field_label
+    - field.field.node.manuscript.field_literature_reference
+    - field.field.node.manuscript.field_medium
+    - field.field.node.manuscript.field_migration_id
+    - field.field.node.manuscript.field_note
+    - field.field.node.manuscript.field_old_id
+    - field.field.node.manuscript.field_person_reference
+    - field.field.node.manuscript.field_preservation_status
+    - field.field.node.manuscript.field_provenance
+    - field.field.node.manuscript.field_shelf_number
+    - node.type.manuscript
+  module:
+    - user
+id: node.manuscript.teaser
+targetEntityType: node
+bundle: manuscript
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  field_datation: true
+  field_digital_localization: true
+  field_geographical_localization: true
+  field_label: true
+  field_literature_reference: true
+  field_medium: true
+  field_migration_id: true
+  field_note: true
+  field_old_id: true
+  field_person_reference: true
+  field_preservation_status: true
+  field_provenance: true
+  field_shelf_number: true
+  langcode: true
+  search_api_excerpt: true

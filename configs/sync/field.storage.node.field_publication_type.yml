@@ -1,0 +1,33 @@
+uuid: f25f7596-a654-4b62-a843-054babd535f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_publication_type
+field_name: field_publication_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: resource
+      label: resource
+    -
+      value: edition
+      label: edition
+    -
+      value: literature
+      label: literature
+    -
+      value: old_print
+      label: 'old print'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 6c73404a-bccc-4a2b-a316-1fba4c43f8c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_authors_note
+    - node.type.work
+id: node.work.field_authors_note
+field_name: field_authors_note
+entity_type: node
+bundle: work
+label: "Authors' note"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

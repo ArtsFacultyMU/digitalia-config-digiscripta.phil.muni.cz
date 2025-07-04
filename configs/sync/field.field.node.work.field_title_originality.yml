@@ -1,0 +1,21 @@
+uuid: 633c1b9c-a544-452c-8349-9b25fc31c4da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_originality
+    - node.type.work
+  module:
+    - options
+id: node.work.field_title_originality
+field_name: field_title_originality
+entity_type: node
+bundle: work
+label: 'Title originality'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

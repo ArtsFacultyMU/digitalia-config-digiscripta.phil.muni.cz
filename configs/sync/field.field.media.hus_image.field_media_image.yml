@@ -1,0 +1,38 @@
+uuid: d70aeb98-04c5-4108-bae5-77e9f9683739
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_image
+    - media.type.hus_image
+  module:
+    - image
+id: media.hus_image.field_media_image
+field_name: field_media_image
+entity_type: media
+bundle: hus_image
+label: Image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

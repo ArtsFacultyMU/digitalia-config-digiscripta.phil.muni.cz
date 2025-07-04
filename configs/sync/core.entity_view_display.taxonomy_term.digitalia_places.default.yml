@@ -1,0 +1,32 @@
+uuid: cf2c5051-d330-4e7a-bfde-5ac06f91f70f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.digitalia_places.field_id
+    - taxonomy.vocabulary.digitalia_places
+  module:
+    - text
+id: taxonomy_term.digitalia_places.default
+targetEntityType: taxonomy_term
+bundle: digitalia_places
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

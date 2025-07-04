@@ -1,0 +1,22 @@
+uuid: 3652556d-bfbd-4aee-9688-2f636b1cdeac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_death_date
+    - node.type.person
+  module:
+    - digitalia_muni_date_field
+id: node.person.field_death_date
+field_name: field_death_date
+entity_type: node
+bundle: person
+label: 'Death date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  bar: example
+field_type: digitalia_muni_date_field_date

@@ -1,0 +1,29 @@
+uuid: 3d1a1c36-071a-47d6-855c-3ae4386b261a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edition_title
+    - node.type.publication_stand_alone
+    - taxonomy.vocabulary.digitalia_muni_edition
+id: node.publication_stand_alone.field_edition_title
+field_name: field_edition_title
+entity_type: node
+bundle: publication_stand_alone
+label: 'Edition title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:filter_existing_terms'
+  handler_settings:
+    target_bundles:
+      digitalia_muni_edition: digitalia_muni_edition
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

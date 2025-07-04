@@ -1,0 +1,27 @@
+uuid: 7e0aff10-326b-4451-b563-b31f3c4c5e83
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_medium
+field_name: field_medium
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: paper
+      label: paper
+    -
+      value: parchment
+      label: parchment
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

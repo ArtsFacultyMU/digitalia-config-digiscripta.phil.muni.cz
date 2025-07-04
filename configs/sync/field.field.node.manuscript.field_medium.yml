@@ -1,0 +1,21 @@
+uuid: 311e5d9b-6669-47bf-9794-76b632170bd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medium
+    - node.type.manuscript
+  module:
+    - options
+id: node.manuscript.field_medium
+field_name: field_medium
+entity_type: node
+bundle: manuscript
+label: Medium
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

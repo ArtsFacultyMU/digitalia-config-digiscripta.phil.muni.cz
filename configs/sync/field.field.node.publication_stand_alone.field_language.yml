@@ -1,0 +1,21 @@
+uuid: 3487afbb-a98d-4c95-a949-8542b30e54ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_language
+    - node.type.publication_stand_alone
+  module:
+    - options
+id: node.publication_stand_alone.field_language
+field_name: field_language
+entity_type: node
+bundle: publication_stand_alone
+label: Language
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: 190dfb75-8ad2-48b0-b6f7-0679dd87635f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.literature_reference
+id: node.literature_reference.promote
+field_name: promote
+entity_type: node
+bundle: literature_reference
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

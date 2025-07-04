@@ -1,0 +1,10 @@
+uuid: 5727e981-e200-4a85-ae46-c67f5fd70ff7
+langcode: en
+status: true
+dependencies: {  }
+id: migrate_islandora_csv
+label: migrate_islandora_csv
+description: ''
+source_type: null
+module: null
+shared_configuration: null

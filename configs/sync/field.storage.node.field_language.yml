@@ -1,0 +1,36 @@
+uuid: 11928ea6-0e62-44a4-8850-c8a3cb9e24d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_language
+field_name: field_language
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ces
+      label: Czech
+    -
+      value: lat
+      label: Latin
+    -
+      value: deu
+      label: German
+    -
+      value: eng
+      label: English
+    -
+      value: fra
+      label: French
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

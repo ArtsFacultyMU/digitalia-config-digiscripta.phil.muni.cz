@@ -1,0 +1,10 @@
+uuid: 5870f6cf-2b9b-4995-aaf5-f75dfa9a82b6
+langcode: en
+status: true
+dependencies: {  }
+id: hus_node
+label: 'HUS Node'
+description: ''
+source_type: ''
+module: null
+shared_configuration: null

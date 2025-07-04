@@ -1,0 +1,19 @@
+uuid: 62b671af-86f9-448b-a93e-d6890d5c61fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_note
+    - node.type.text
+id: node.text.field_note
+field_name: field_note
+entity_type: node
+bundle: text
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

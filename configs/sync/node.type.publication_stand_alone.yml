@@ -1,0 +1,17 @@
+uuid: bb04af1e-403e-452d-8ed7-4d2ebacb44d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Stand-alone publication'
+type: publication_stand_alone
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

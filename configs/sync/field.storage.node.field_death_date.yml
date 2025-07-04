@@ -1,0 +1,20 @@
+uuid: 64c28104-9b3b-4ef8-b47f-0986af5ba2be
+langcode: en
+status: true
+dependencies:
+  module:
+    - digitalia_muni_date_field
+    - node
+id: node.field_death_date
+field_name: field_death_date
+entity_type: node
+type: digitalia_muni_date_field_date
+settings:
+  foo: example
+module: digitalia_muni_date_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

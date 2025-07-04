@@ -1,0 +1,36 @@
+uuid: 89a81595-5df8-46ae-89be-fdbe92c28df9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.hus_image.field_description
+    - field.field.media.hus_image.field_media_image
+    - image.style.medium
+    - media.type.hus_image
+  module:
+    - image
+id: media.hus_image.media_library
+targetEntityType: media
+bundle: hus_image
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_description: true
+  field_media_image: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  uid: true

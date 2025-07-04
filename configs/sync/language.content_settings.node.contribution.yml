@@ -1,0 +1,11 @@
+uuid: 2fd4f92d-a8ba-4623-82a9-842346885cca
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contribution
+id: node.contribution
+target_entity_type_id: node
+target_bundle: contribution
+default_langcode: cs
+language_alterable: false

@@ -1,0 +1,19 @@
+uuid: ef1e3874-1b3e-4360-b4e7-699818df6e9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - digitalia_muni_custom_field_types
+    - node
+id: node.field_datation
+field_name: field_datation
+entity_type: node
+type: digitalia_muni_custom_field_types_datation
+settings: {  }
+module: digitalia_muni_custom_field_types
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

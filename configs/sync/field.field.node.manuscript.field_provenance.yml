@@ -1,0 +1,21 @@
+uuid: 37eb6a41-13e6-40d7-a081-17686d689031
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_provenance
+    - node.type.manuscript
+  module:
+    - digitalia_muni_custom_field_types
+id: node.manuscript.field_provenance
+field_name: field_provenance
+entity_type: node
+bundle: manuscript
+label: PROVENANCE
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: digitalia_muni_custom_field_types_provenance

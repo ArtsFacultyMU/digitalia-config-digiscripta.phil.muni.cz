@@ -1,0 +1,67 @@
+uuid: a8933b83-e538-4f96-aefa-b5a4fbfd010f
+langcode: en
+status: true
+dependencies: {  }
+id: hus_node_work
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: hus_node
+label: 'HUS Node Work'
+source:
+  plugin: csv
+  delimiter: "\t"
+  path: migrate/work.csv
+  header_row_count: 1
+  ids:
+    - id
+  constants:
+    uid: 1
+    status: 1
+    cs: cs
+process:
+  status: constants/status
+  langcode: constants/cs
+  uid: constants/uid
+  field_migration_id: id
+  field_old_id: old_id
+  field_bs_identifier: T02
+  field_mihoo_identifier:
+    plugin: entity_lookup
+    source: T03
+    entity_type: node
+    value_key: field_migration_id
+  title: T05
+  field_title_originality: T06
+  field_uniform_title_language: T07
+  authors:
+    -
+      source: T20.1
+      plugin: skip_on_empty
+      method: process
+    -
+      plugin: explode
+      delimiter: '|'
+    -
+      plugin: str_to_assoc
+      key: author
+  field_authors:
+    plugin: sub_process
+    source: '@authors'
+    process:
+      target_id:
+        plugin: entity_lookup
+        source: author
+        entity_type: node
+        value_key: field_migration_id
+      rel_type:
+        plugin: default_value
+        default_value: uncertain
+  field_incipit: T30
+  field_explicit: T31
+  field_note: T98
+destination:
+  plugin: 'entity:node'
+  default_bundle: work
+migration_dependencies: null

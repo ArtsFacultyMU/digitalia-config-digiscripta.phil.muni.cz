@@ -1,0 +1,11 @@
+uuid: 8ad69b0f-3a08-495a-afc9-2690232313c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.hus_image
+id: media.hus_image
+target_entity_type_id: media
+target_bundle: hus_image
+default_langcode: site_default
+language_alterable: false

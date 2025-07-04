@@ -1,0 +1,19 @@
+uuid: 5b8da352-dd12-47e1-9622-70d98f8a4bf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_note
+    - node.type.manuscript
+id: node.manuscript.field_note
+field_name: field_note
+entity_type: node
+bundle: manuscript
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

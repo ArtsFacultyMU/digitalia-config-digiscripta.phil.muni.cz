@@ -1,0 +1,21 @@
+uuid: 6ec5fb12-8ca6-44c4-a2e4-1e05f686e003
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_institution_type
+    - node.type.institution
+  module:
+    - options
+id: node.institution.field_institution_type
+field_name: field_institution_type
+entity_type: node
+bundle: institution
+label: 'Institution type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

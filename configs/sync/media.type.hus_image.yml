@@ -1,0 +1,14 @@
+uuid: fa5eadea-5ee6-402c-a614-f942f7794800
+langcode: en
+status: true
+dependencies: {  }
+id: hus_image
+label: 'HUS Image'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

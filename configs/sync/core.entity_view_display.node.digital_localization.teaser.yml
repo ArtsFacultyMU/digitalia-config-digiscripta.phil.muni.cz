@@ -1,0 +1,31 @@
+uuid: 0cc5f898-847f-427b-9b10-05497ff91cf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.digital_localization.field_migration_id
+    - field.field.node.digital_localization.field_source_term
+    - field.field.node.digital_localization.field_status
+    - field.field.node.digital_localization.field_url
+    - node.type.digital_localization
+  module:
+    - user
+id: node.digital_localization.teaser
+targetEntityType: node
+bundle: digital_localization
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  field_migration_id: true
+  field_source_term: true
+  field_status: true
+  field_url: true
+  langcode: true
+  search_api_excerpt: true

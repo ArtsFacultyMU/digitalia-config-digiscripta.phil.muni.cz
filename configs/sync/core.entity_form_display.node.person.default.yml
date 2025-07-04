@@ -1,0 +1,127 @@
+uuid: 69fd98c7-e663-415c-ae7b-4365645b9e69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.person.field_biography
+    - field.field.node.person.field_birth_date
+    - field.field.node.person.field_birth_place
+    - field.field.node.person.field_death_date
+    - field.field.node.person.field_death_place
+    - field.field.node.person.field_first_name
+    - field.field.node.person.field_migration_id
+    - field.field.node.person.field_note
+    - field.field.node.person.field_surname
+    - field.field.node.person.field_viaf_identifier
+    - node.type.person
+  module:
+    - digitalia_muni_date_field
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  field_biography:
+    type: string_textarea
+    weight: 8
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_birth_date:
+    type: digitalia_muni_date_field_date
+    weight: 4
+    region: content
+    settings:
+      foo: bar
+    third_party_settings: {  }
+  field_birth_place:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_death_date:
+    type: digitalia_muni_date_field_date
+    weight: 6
+    region: content
+    settings:
+      foo: bar
+    third_party_settings: {  }
+  field_death_place:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_first_name:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_migration_id:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_note:
+    type: string_textarea
+    weight: 9
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_surname:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_viaf_identifier:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 11
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

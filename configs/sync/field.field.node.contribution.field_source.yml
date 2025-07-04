@@ -1,0 +1,19 @@
+uuid: 8bc967f5-2909-43d5-bb12-d220a7671e56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_source
+    - node.type.contribution
+id: node.contribution.field_source
+field_name: field_source
+entity_type: node
+bundle: contribution
+label: Source
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

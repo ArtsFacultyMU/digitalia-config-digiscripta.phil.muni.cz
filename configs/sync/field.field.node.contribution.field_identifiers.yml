@@ -1,0 +1,48 @@
+uuid: a89becfd-7f6f-4ec4-821d-b3f41f425404
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_identifiers
+    - node.type.contribution
+  module:
+    - double_field
+id: node.contribution.field_identifiers
+field_name: field_identifiers
+entity_type: node
+bundle: contribution
+label: IDENTIFIERS
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: ''
+    list: true
+    allowed_values:
+      -
+        label: ISBN
+        value: ISBN
+      -
+        label: DOI
+        value: DOI
+      -
+        label: handle
+        value: handle
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: false
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

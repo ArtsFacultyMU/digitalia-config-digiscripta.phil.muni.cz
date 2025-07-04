@@ -1,0 +1,19 @@
+uuid: b786c17e-4669-4f30-86a7-76e79dbf10f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_incipit
+    - node.type.work
+id: node.work.field_incipit
+field_name: field_incipit
+entity_type: node
+bundle: work
+label: Incipit
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

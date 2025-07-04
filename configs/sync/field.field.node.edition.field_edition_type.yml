@@ -1,0 +1,21 @@
+uuid: 490a179f-e15e-408a-93af-3c16477b7aee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edition_type
+    - node.type.edition
+  module:
+    - options
+id: node.edition.field_edition_type
+field_name: field_edition_type
+entity_type: node
+bundle: edition
+label: 'Edition type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

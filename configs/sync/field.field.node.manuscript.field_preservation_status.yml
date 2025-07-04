@@ -1,0 +1,21 @@
+uuid: b60927e3-4ba6-4a47-9ae4-10ca61001f0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_preservation_status
+    - node.type.manuscript
+  module:
+    - options
+id: node.manuscript.field_preservation_status
+field_name: field_preservation_status
+entity_type: node
+bundle: manuscript
+label: 'Preservation status'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: c902f5fc-1e7e-46b2-8d2a-ce032618b7c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birth_date
+    - node.type.person
+  module:
+    - digitalia_muni_date_field
+id: node.person.field_birth_date
+field_name: field_birth_date
+entity_type: node
+bundle: person
+label: 'Birth date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  bar: example
+field_type: digitalia_muni_date_field_date

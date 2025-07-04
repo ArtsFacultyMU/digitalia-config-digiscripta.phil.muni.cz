@@ -1,0 +1,19 @@
+uuid: eeca3eac-f71a-4f8b-8032-c432f7b4de52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_id
+    - taxonomy.vocabulary.digitalia_places
+id: taxonomy_term.digitalia_places.field_id
+field_name: field_id
+entity_type: taxonomy_term
+bundle: digitalia_places
+label: ID
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

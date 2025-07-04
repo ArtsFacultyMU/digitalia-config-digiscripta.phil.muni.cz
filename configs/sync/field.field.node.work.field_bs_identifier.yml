@@ -1,0 +1,23 @@
+uuid: a103bb1e-9ba7-4470-ae4b-567f9de76e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bs_identifier
+    - node.type.work
+id: node.work.field_bs_identifier
+field_name: field_bs_identifier
+entity_type: node
+bundle: work
+label: 'BS identifier'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

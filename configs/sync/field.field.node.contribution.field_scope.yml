@@ -1,0 +1,19 @@
+uuid: df8cf930-e208-4bf4-a8b1-d425be2afef1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scope
+    - node.type.contribution
+id: node.contribution.field_scope
+field_name: field_scope
+entity_type: node
+bundle: contribution
+label: Scope
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

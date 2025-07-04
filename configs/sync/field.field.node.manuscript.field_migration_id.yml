@@ -1,0 +1,19 @@
+uuid: 7a470ff3-b185-4908-bf49-2bd9c46fa4fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_migration_id
+    - node.type.manuscript
+id: node.manuscript.field_migration_id
+field_name: field_migration_id
+entity_type: node
+bundle: manuscript
+label: 'Migration ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

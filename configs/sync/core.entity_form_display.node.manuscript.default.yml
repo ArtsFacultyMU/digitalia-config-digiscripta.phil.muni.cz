@@ -1,0 +1,154 @@
+uuid: f74cbb41-4bfc-4c4d-b26d-9e9c13a6dce1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.manuscript.field_datation
+    - field.field.node.manuscript.field_digital_localization
+    - field.field.node.manuscript.field_geographical_localization
+    - field.field.node.manuscript.field_label
+    - field.field.node.manuscript.field_literature_reference
+    - field.field.node.manuscript.field_medium
+    - field.field.node.manuscript.field_migration_id
+    - field.field.node.manuscript.field_note
+    - field.field.node.manuscript.field_old_id
+    - field.field.node.manuscript.field_person_reference
+    - field.field.node.manuscript.field_preservation_status
+    - field.field.node.manuscript.field_provenance
+    - field.field.node.manuscript.field_shelf_number
+    - node.type.manuscript
+  module:
+    - digitalia_muni_custom_field_types
+id: node.manuscript.default
+targetEntityType: node
+bundle: manuscript
+mode: default
+content:
+  field_datation:
+    type: digitalia_muni_custom_field_types_datation
+    weight: 3
+    region: content
+    settings:
+      foo: bar
+    third_party_settings: {  }
+  field_digital_localization:
+    type: entity_reference_autocomplete
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_geographical_localization:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_label:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+  field_literature_reference:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_medium:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_migration_id:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_note:
+    type: string_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_old_id:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_person_reference:
+    type: entity_reference_autocomplete
+    weight: 10
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_preservation_status:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_provenance:
+    type: digitalia_muni_custom_field_types_provenance
+    weight: 6
+    region: content
+    settings:
+      foo: bar
+    third_party_settings: {  }
+  field_shelf_number:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 14
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

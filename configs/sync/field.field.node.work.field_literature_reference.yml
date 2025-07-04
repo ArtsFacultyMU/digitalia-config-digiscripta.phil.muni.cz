@@ -1,0 +1,29 @@
+uuid: c47dc913-ae8d-42d4-9bcf-c4c1780edf56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_literature_reference
+    - node.type.literature_reference
+    - node.type.work
+id: node.work.field_literature_reference
+field_name: field_literature_reference
+entity_type: node
+bundle: work
+label: 'Literature reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      literature_reference: literature_reference
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

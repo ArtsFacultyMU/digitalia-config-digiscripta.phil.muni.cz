@@ -1,0 +1,5 @@
+display:
+  default:
+    display_title: Výchozí
+    display_options:
+      use_more_text: Více

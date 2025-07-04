@@ -1,0 +1,19 @@
+uuid: a2753ef5-dfb9-4843-af00-bc0e63b572db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.contribution
+id: node.contribution.field_number
+field_name: field_number
+entity_type: node
+bundle: contribution
+label: Number
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

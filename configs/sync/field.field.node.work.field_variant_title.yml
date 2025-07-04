@@ -1,0 +1,21 @@
+uuid: a74718b9-431c-4249-b130-d47ae2b7c7f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_variant_title
+    - node.type.work
+  module:
+    - digitalia_muni_custom_field_types
+id: node.work.field_variant_title
+field_name: field_variant_title
+entity_type: node
+bundle: work
+label: 'Variant title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: digitalia_muni_custom_field_types_variant_title

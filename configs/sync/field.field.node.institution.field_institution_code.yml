@@ -1,0 +1,45 @@
+uuid: 0c6dfbc7-a4b2-4678-8b24-9c30262b9605
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_institution_code
+    - node.type.institution
+  module:
+    - double_field
+id: node.institution.field_institution_code
+field_name: field_institution_code
+entity_type: node
+bundle: institution
+label: 'INSTITUTION CODE'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: 'System indication'
+    list: true
+    allowed_values:
+      -
+        label: ROR
+        value: ROR
+      -
+        label: IČO
+        value: IČO
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: Code
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

@@ -1,0 +1,63 @@
+uuid: 30a48d44-69f2-4c3f-bc70-2db518068d90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.digital_localization.field_migration_id
+    - field.field.node.digital_localization.field_source_term
+    - field.field.node.digital_localization.field_status
+    - field.field.node.digital_localization.field_url
+    - node.type.digital_localization
+  module:
+    - link
+    - options
+    - user
+id: node.digital_localization.default
+targetEntityType: node
+bundle: digital_localization
+mode: default
+content:
+  field_migration_id:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_source_term:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_status:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_url:
+    type: link
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  did_image: true
+  langcode: true
+  search_api_excerpt: true

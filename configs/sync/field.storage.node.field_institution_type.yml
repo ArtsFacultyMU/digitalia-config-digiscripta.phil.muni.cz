@@ -1,0 +1,36 @@
+uuid: 5f41d762-b0da-488f-a068-a35a0a5ba076
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_institution_type
+field_name: field_institution_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: library
+      label: library
+    -
+      value: museum
+      label: museum
+    -
+      value: archive
+      label: archive
+    -
+      value: university
+      label: university
+    -
+      value: religious_institution
+      label: 'religious institution'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,32 @@
+uuid: 163188c5-5b68-4c52-b172-d4e4b803b9fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.digitalia_muni_source.field_id
+    - taxonomy.vocabulary.digitalia_muni_source
+  module:
+    - text
+id: taxonomy_term.digitalia_muni_source.default
+targetEntityType: taxonomy_term
+bundle: digitalia_muni_source
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

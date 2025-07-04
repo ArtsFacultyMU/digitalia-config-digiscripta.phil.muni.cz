@@ -1,0 +1,19 @@
+uuid: eb88a931-07dd-41fb-bc64-2f2fb3005722
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scope
+    - node.type.literature_reference
+id: node.literature_reference.field_scope
+field_name: field_scope
+entity_type: node
+bundle: literature_reference
+label: Scope
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,8 @@
+display:
+  default:
+    display_title: Výchozí
+    display_options:
+      filters:
+        status:
+          expose:
+            label: 'Pravda (True)'

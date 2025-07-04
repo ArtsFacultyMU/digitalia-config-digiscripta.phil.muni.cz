@@ -1,0 +1,21 @@
+uuid: 382aae43-eaa8-42f6-9b86-b41b7ae1d0fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_datation
+    - node.type.manuscript
+  module:
+    - digitalia_muni_custom_field_types
+id: node.manuscript.field_datation
+field_name: field_datation
+entity_type: node
+bundle: manuscript
+label: Datation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: digitalia_muni_custom_field_types_datation

@@ -1,0 +1,21 @@
+uuid: 1ca83b7b-9828-46dc-b57e-a66dd62a9631
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uniform_title_language
+    - node.type.work
+  module:
+    - options
+id: node.work.field_uniform_title_language
+field_name: field_uniform_title_language
+entity_type: node
+bundle: work
+label: 'Uniform title language'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

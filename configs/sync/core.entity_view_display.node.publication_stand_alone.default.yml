@@ -1,0 +1,175 @@
+uuid: d6f0116d-ef45-4ba5-83d4-a9f8df9a9766
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publication_stand_alone.field_author
+    - field.field.node.publication_stand_alone.field_content
+    - field.field.node.publication_stand_alone.field_digital_localization
+    - field.field.node.publication_stand_alone.field_edition
+    - field.field.node.publication_stand_alone.field_edition_number
+    - field.field.node.publication_stand_alone.field_edition_title
+    - field.field.node.publication_stand_alone.field_identifiers
+    - field.field.node.publication_stand_alone.field_language
+    - field.field.node.publication_stand_alone.field_migration_id
+    - field.field.node.publication_stand_alone.field_note
+    - field.field.node.publication_stand_alone.field_old_id
+    - field.field.node.publication_stand_alone.field_person_as_subject
+    - field.field.node.publication_stand_alone.field_place_of_publication
+    - field.field.node.publication_stand_alone.field_publication_type
+    - field.field.node.publication_stand_alone.field_publication_year
+    - field.field.node.publication_stand_alone.field_publisher
+    - field.field.node.publication_stand_alone.field_scope
+    - node.type.publication_stand_alone
+  module:
+    - double_field
+    - options
+    - user
+id: node.publication_stand_alone.default
+targetEntityType: node
+bundle: publication_stand_alone
+mode: default
+content:
+  field_author:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_content:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_digital_localization:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_edition:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_edition_number:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_edition_title:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_identifiers:
+    type: double_field_unformatted_list
+    label: inline
+    settings:
+      first:
+        format_type: medium
+        link: false
+        hidden: false
+        key: false
+        decimal_separator: .
+        thousand_separator: ''
+        scale: 2
+      second:
+        format_type: medium
+        link: false
+        hidden: false
+        key: false
+        decimal_separator: .
+        thousand_separator: ''
+        scale: 2
+      inline: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_language:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_note:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_person_as_subject:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_place_of_publication:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_publication_type:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_publication_year:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_publisher:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_scope:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  did_image: true
+  field_migration_id: true
+  field_old_id: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,27 @@
+uuid: 022cb182-8ce1-4dc4-8c56-bffef80e3e9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_text_type
+field_name: field_text_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: original
+      label: original
+    -
+      value: translation
+      label: translation
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

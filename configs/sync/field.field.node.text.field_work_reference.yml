@@ -1,0 +1,29 @@
+uuid: 1fbad7ab-c6d4-4481-8145-2fcf6a4db710
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_reference
+    - node.type.text
+    - node.type.work
+id: node.text.field_work_reference
+field_name: field_work_reference
+entity_type: node
+bundle: text
+label: 'Work reference'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      work: work
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

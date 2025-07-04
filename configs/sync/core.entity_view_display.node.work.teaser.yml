@@ -1,0 +1,59 @@
+uuid: b279faa3-2757-4f56-ab99-7d5dddebdcda
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.work.field_authors
+    - field.field.node.work.field_authors_note
+    - field.field.node.work.field_bs_identifier
+    - field.field.node.work.field_datation
+    - field.field.node.work.field_explicit
+    - field.field.node.work.field_genre
+    - field.field.node.work.field_incipit
+    - field.field.node.work.field_keywords
+    - field.field.node.work.field_literature_reference
+    - field.field.node.work.field_migration_id
+    - field.field.node.work.field_mihoo_identifier
+    - field.field.node.work.field_note
+    - field.field.node.work.field_note_private
+    - field.field.node.work.field_old_id
+    - field.field.node.work.field_person_reference
+    - field.field.node.work.field_title_originality
+    - field.field.node.work.field_uniform_title_language
+    - field.field.node.work.field_variant_title
+    - node.type.work
+  module:
+    - user
+id: node.work.teaser
+targetEntityType: node
+bundle: work
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  field_authors: true
+  field_authors_note: true
+  field_bs_identifier: true
+  field_datation: true
+  field_explicit: true
+  field_genre: true
+  field_incipit: true
+  field_keywords: true
+  field_literature_reference: true
+  field_migration_id: true
+  field_mihoo_identifier: true
+  field_note: true
+  field_note_private: true
+  field_old_id: true
+  field_person_reference: true
+  field_title_originality: true
+  field_uniform_title_language: true
+  field_variant_title: true
+  langcode: true
+  search_api_excerpt: true

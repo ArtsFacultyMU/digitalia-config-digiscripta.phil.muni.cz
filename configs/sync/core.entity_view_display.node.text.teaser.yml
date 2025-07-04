@@ -1,0 +1,49 @@
+uuid: b21bdfad-33af-4a71-821e-87b0ab584768
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.text.field_language
+    - field.field.node.text.field_literature_reference
+    - field.field.node.text.field_manuscript_note
+    - field.field.node.text.field_manuscript_scope
+    - field.field.node.text.field_manuscript_shelf_number
+    - field.field.node.text.field_migration_id
+    - field.field.node.text.field_note
+    - field.field.node.text.field_old_id
+    - field.field.node.text.field_person_reference
+    - field.field.node.text.field_text_type
+    - field.field.node.text.field_text_version
+    - field.field.node.text.field_work_reference
+    - field.field.node.text.field_work_reference_note
+    - node.type.text
+  module:
+    - user
+id: node.text.teaser
+targetEntityType: node
+bundle: text
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  field_language: true
+  field_literature_reference: true
+  field_manuscript_note: true
+  field_manuscript_scope: true
+  field_manuscript_shelf_number: true
+  field_migration_id: true
+  field_note: true
+  field_old_id: true
+  field_person_reference: true
+  field_text_type: true
+  field_text_version: true
+  field_work_reference: true
+  field_work_reference_note: true
+  langcode: true
+  search_api_excerpt: true

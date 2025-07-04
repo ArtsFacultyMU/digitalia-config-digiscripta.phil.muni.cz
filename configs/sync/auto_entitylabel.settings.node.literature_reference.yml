@@ -1,0 +1,10 @@
+status: 1
+pattern: '[node:field_literature]'
+escape: false
+preserve_titles: false
+save: false
+chunk: 50
+dependencies:
+  config:
+    - node.type.literature_reference
+new_content_behavior: 0

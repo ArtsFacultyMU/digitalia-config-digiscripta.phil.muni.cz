@@ -1,0 +1,19 @@
+uuid: e2cd5d4b-e070-4da5-b200-91c57e03c359
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_institution_abbreviation
+    - node.type.institution
+id: node.institution.field_institution_abbreviation
+field_name: field_institution_abbreviation
+entity_type: node
+bundle: institution
+label: 'Institution abbreviation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

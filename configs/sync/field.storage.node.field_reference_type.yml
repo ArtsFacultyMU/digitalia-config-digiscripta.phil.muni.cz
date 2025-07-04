@@ -1,0 +1,33 @@
+uuid: c3a0498e-83cd-4476-8a37-3adf80907404
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_reference_type
+field_name: field_reference_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: author
+      label: author
+    -
+      value: editor
+      label: editor
+    -
+      value: collaborator
+      label: collaborator
+    -
+      value: critic
+      label: critic
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

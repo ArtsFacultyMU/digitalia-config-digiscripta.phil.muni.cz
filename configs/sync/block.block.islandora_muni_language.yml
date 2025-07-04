@@ -1,0 +1,30 @@
+uuid: 5ecf8c1a-07f8-4244-bd1f-9a81c73a6fa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.language
+  module:
+    - facets
+    - islandora
+  theme:
+    - islandora_muni
+id: islandora_muni_language
+theme: islandora_muni
+region: sidebar_first
+weight: -18
+provider: null
+plugin: 'facet_block:language'
+settings:
+  id: 'facet_block:language'
+  label: Language
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: islandora_muni_language
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

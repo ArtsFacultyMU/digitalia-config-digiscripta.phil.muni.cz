@@ -1,0 +1,19 @@
+uuid: 2ee3b31f-bd88-4f20-91b3-211cef2a8269
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shelf_number
+    - node.type.manuscript
+id: node.manuscript.field_shelf_number
+field_name: field_shelf_number
+entity_type: node
+bundle: manuscript
+label: 'Shelf number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

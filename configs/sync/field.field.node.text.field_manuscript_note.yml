@@ -1,0 +1,19 @@
+uuid: 88ca6c8e-c1d3-46fd-8d6a-7bc8486d5763
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manuscript_note
+    - node.type.text
+id: node.text.field_manuscript_note
+field_name: field_manuscript_note
+entity_type: node
+bundle: text
+label: 'MANUSCRIPT LOCALIZATION Note'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

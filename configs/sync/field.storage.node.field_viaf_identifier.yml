@@ -1,0 +1,21 @@
+uuid: e36e4278-6028-4241-babc-d50b7c13a21f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_viaf_identifier
+field_name: field_viaf_identifier
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

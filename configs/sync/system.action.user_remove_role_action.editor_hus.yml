@@ -1,0 +1,14 @@
+uuid: b061617d-4211-4c74-9da3-6fe2ab70f37f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_hus
+  module:
+    - user
+id: user_remove_role_action.editor_hus
+label: 'Remove the Editor (Hus) role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor_hus

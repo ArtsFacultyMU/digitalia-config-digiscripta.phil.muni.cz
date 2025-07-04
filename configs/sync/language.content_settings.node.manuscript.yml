@@ -1,0 +1,11 @@
+uuid: 1122db0d-07db-40f7-8295-2107fd548ec2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.manuscript
+id: node.manuscript
+target_entity_type_id: node
+target_bundle: manuscript
+default_langcode: cs
+language_alterable: false

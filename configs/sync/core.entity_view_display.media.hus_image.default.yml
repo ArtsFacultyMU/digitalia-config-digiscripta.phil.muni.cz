@@ -1,0 +1,41 @@
+uuid: ccb557ae-863f-40a9-b9c8-9b815b0c805d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.hus_image.field_description
+    - field.field.media.hus_image.field_media_image
+    - image.style.large
+    - media.type.hus_image
+  module:
+    - image
+id: media.hus_image.default
+targetEntityType: media
+bundle: hus_image
+mode: default
+content:
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

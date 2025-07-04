@@ -1,0 +1,21 @@
+uuid: 981d2dc0-4739-440a-925d-41e7ff3ee256
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference_type
+    - node.type.person_reference
+  module:
+    - options
+id: node.person_reference.field_reference_type
+field_name: field_reference_type
+entity_type: node
+bundle: person_reference
+label: 'Reference type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

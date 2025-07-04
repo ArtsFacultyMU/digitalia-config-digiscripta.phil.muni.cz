@@ -1,0 +1,57 @@
+uuid: f9905c31-c1d7-4ca1-984a-f4017fa4f5a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.person_reference.field_migration_id
+    - field.field.node.person_reference.field_note
+    - field.field.node.person_reference.field_person
+    - field.field.node.person_reference.field_reference_type
+    - node.type.person_reference
+  module:
+    - options
+    - user
+id: node.person_reference.default
+targetEntityType: node
+bundle: person_reference
+mode: default
+content:
+  field_migration_id:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_note:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_person:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_reference_type:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  langcode: true
+  search_api_excerpt: true

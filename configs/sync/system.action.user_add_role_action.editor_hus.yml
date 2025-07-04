@@ -1,0 +1,14 @@
+uuid: 3f7a8bbd-aa87-40ee-b616-a2a918c9364c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.editor_hus
+  module:
+    - user
+id: user_add_role_action.editor_hus
+label: 'Add the Editor (Hus) role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: editor_hus

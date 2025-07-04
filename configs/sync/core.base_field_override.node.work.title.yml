@@ -1,0 +1,18 @@
+uuid: 75e933aa-71cb-4e8d-86ae-d3dced07bfb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.work
+id: node.work.title
+field_name: title
+entity_type: node
+bundle: work
+label: 'Unified title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

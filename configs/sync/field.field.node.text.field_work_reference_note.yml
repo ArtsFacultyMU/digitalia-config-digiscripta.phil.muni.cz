@@ -1,0 +1,19 @@
+uuid: 0adce498-3324-424d-adce-35fe45aa6b40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_reference_note
+    - node.type.text
+id: node.text.field_work_reference_note
+field_name: field_work_reference_note
+entity_type: node
+bundle: text
+label: 'Work reference note'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

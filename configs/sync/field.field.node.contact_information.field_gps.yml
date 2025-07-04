@@ -1,0 +1,21 @@
+uuid: 7786beeb-1ad2-433e-9614-5a1c1a6eabd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gps
+    - node.type.contact_information
+  module:
+    - digitalia_muni_custom_field_types
+id: node.contact_information.field_gps
+field_name: field_gps
+entity_type: node
+bundle: contact_information
+label: GPS
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: digitalia_muni_custom_field_types_geolocation

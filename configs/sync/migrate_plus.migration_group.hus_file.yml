@@ -1,0 +1,10 @@
+uuid: 0c1312ab-357b-4080-a505-f1f661b115f2
+langcode: en
+status: true
+dependencies: {  }
+id: hus_file
+label: 'HUS File'
+description: ''
+source_type: ''
+module: null
+shared_configuration: null

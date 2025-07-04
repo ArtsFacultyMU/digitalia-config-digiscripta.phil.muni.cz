@@ -1,0 +1,68 @@
+uuid: bb1df0a9-e252-4c42-8cea-c6efae4ded26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contact_information.field_contact_type
+    - field.field.node.contact_information.field_gps
+    - field.field.node.contact_information.field_migration_id
+    - field.field.node.contact_information.field_place
+    - field.field.node.contact_information.field_street_and_number
+    - node.type.contact_information
+  module:
+    - digitalia_muni_custom_field_types
+    - options
+    - user
+id: node.contact_information.default
+targetEntityType: node
+bundle: contact_information
+mode: default
+content:
+  field_contact_type:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_gps:
+    type: digitalia_muni_custom_field_types_geolocation_default
+    label: inline
+    settings:
+      foo: bar
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_migration_id:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_place:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_street_and_number:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  did_image: true
+  langcode: true
+  search_api_excerpt: true

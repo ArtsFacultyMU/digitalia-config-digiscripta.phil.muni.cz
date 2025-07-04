@@ -1,0 +1,48 @@
+uuid: fde50627-260d-4704-a5f0-a18a66c9f6f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_identifiers
+    - node.type.publication_stand_alone
+  module:
+    - double_field
+id: node.publication_stand_alone.field_identifiers
+field_name: field_identifiers
+entity_type: node
+bundle: publication_stand_alone
+label: IDENTIFIERS
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: ''
+    list: true
+    allowed_values:
+      -
+        label: ISBN
+        value: ISBN
+      -
+        label: DOI
+        value: DOI
+      -
+        label: handle
+        value: handle
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: false
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

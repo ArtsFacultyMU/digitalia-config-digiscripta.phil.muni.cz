@@ -1,0 +1,29 @@
+uuid: 43b61189-3916-485f-ab64-54b869f47326
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place
+    - node.type.contact_information
+    - taxonomy.vocabulary.digitalia_places
+id: node.contact_information.field_place
+field_name: field_place
+entity_type: node
+bundle: contact_information
+label: Place
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:filter_existing_terms'
+  handler_settings:
+    target_bundles:
+      digitalia_places: digitalia_places
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

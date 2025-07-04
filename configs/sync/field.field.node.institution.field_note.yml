@@ -1,0 +1,19 @@
+uuid: c72b0791-3607-4f3d-85f1-77532c5dd147
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_note
+    - node.type.institution
+id: node.institution.field_note
+field_name: field_note
+entity_type: node
+bundle: institution
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

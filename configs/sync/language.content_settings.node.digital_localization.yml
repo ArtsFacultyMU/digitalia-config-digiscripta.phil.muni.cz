@@ -1,0 +1,11 @@
+uuid: adc430ba-fee4-478a-aca6-af454a764cef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.digital_localization
+id: node.digital_localization
+target_entity_type_id: node
+target_bundle: digital_localization
+default_langcode: cs
+language_alterable: false

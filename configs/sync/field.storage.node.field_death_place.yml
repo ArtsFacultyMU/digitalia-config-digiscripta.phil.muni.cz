@@ -1,0 +1,20 @@
+uuid: 5c364051-eddc-4ce4-8a8a-8a91a71d6231
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_death_place
+field_name: field_death_place
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

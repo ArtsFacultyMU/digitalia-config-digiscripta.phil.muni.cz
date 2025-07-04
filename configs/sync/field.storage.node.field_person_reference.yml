@@ -1,0 +1,19 @@
+uuid: 609c2fac-880a-4cbd-8ca6-d7eb164a84d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_person_reference
+field_name: field_person_reference
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

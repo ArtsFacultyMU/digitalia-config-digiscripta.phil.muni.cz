@@ -1,0 +1,17 @@
+uuid: d2e25b43-f6fc-47d9-b9b7-35a069c527d8
+langcode: en
+status: true
+dependencies: {  }
+id: devel
+label: Devel
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/split/devel
+module: {  }
+theme: {  }
+complete_list:
+  - islandora_iiif.settings
+partial_list: {  }

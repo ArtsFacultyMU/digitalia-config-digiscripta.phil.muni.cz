@@ -1,0 +1,31 @@
+uuid: dee21ff9-9de8-466a-886c-00054d8bbbe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mihoo_identifier
+    - node.type.contribution
+    - node.type.publication_stand_alone
+    - node.type.work
+id: node.work.field_mihoo_identifier
+field_name: field_mihoo_identifier
+entity_type: node
+bundle: work
+label: 'MIHOO identifier'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      contribution: contribution
+      publication_stand_alone: publication_stand_alone
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: contribution
+field_type: entity_reference

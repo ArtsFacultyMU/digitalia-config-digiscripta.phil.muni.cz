@@ -1,0 +1,9 @@
+uuid: 5ae9a2f8-6c83-4708-b4e3-7af8dd66e8f6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Digitalia PLACES'
+vid: digitalia_places
+description: null
+weight: 0
+new_revision: false

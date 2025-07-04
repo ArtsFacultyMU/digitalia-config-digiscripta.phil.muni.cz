@@ -1,0 +1,19 @@
+uuid: 5bcfc8b9-c351-4177-8830-dc2f27abaea9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edition_number
+    - node.type.publication_stand_alone
+id: node.publication_stand_alone.field_edition_number
+field_name: field_edition_number
+entity_type: node
+bundle: publication_stand_alone
+label: 'Edition number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

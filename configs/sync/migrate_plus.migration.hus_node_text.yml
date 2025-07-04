@@ -1,0 +1,51 @@
+uuid: d08737cf-f5a3-4c03-993e-c08a47076681
+langcode: en
+status: true
+dependencies: {  }
+id: hus_node_text
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: hus_node
+label: 'HUS Node Text'
+source:
+  plugin: csv
+  delimiter: "\t"
+  path: migrate/text.csv
+  header_row_count: 1
+  ids:
+    - id
+  constants:
+    uid: 1
+    status: 1
+    cs: cs
+process:
+  status: constants/status
+  langcode: constants/cs
+  uid: constants/uid
+  field_old_id: old_id
+  field_migration_id: id
+  title: X05
+  field_text_type: X07
+  field_language: X10
+  field_work_reference:
+    plugin: entity_lookup
+    source: X20a
+    entity_type: node
+    value_key: field_old_id
+    bundle_key: type
+    bundle: work
+  field_manuscript_shelf_number:
+    plugin: entity_lookup
+    source: X40.2
+    entity_type: node
+    value_key: field_old_id
+    bundle_key: type
+    bundle: manuscript
+  field_manuscript_scope: X40.4
+  field_manuscript_note: X40.6
+destination:
+  plugin: 'entity:node'
+  default_bundle: text
+migration_dependencies: null

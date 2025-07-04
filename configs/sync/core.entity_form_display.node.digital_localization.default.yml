@@ -1,0 +1,71 @@
+uuid: 31cfd796-855f-458d-b72b-58cf3849a6d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.digital_localization.field_migration_id
+    - field.field.node.digital_localization.field_source_term
+    - field.field.node.digital_localization.field_status
+    - field.field.node.digital_localization.field_url
+    - node.type.digital_localization
+  module:
+    - link
+id: node.digital_localization.default
+targetEntityType: node
+bundle: digital_localization
+mode: default
+content:
+  field_migration_id:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_source_term:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_status:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_url:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

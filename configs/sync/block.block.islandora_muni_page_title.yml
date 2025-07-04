@@ -1,0 +1,20 @@
+uuid: a56dbc40-a039-4324-bcdf-4a7c7ab75f8b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - islandora_muni
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: islandora_muni_page_title
+theme: islandora_muni
+region: highlighted
+weight: -14
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

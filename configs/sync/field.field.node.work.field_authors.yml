@@ -1,0 +1,35 @@
+uuid: 726ae69c-e3f8-4a14-97aa-767ef52df1bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_authors
+    - node.type.person
+    - node.type.work
+  module:
+    - controlled_access_terms
+id: node.work.field_authors
+field_name: field_authors
+entity_type: node
+bundle: work
+label: AUTHORS
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+  rel_types:
+    confirmed: confirmed
+    uncertain: uncertain
+    doubtful: doubtful
+field_type: typed_relation

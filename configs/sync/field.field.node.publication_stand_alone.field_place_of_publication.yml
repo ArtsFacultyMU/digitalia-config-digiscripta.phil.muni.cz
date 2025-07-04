@@ -1,0 +1,19 @@
+uuid: 9535e12c-c719-47d6-a236-0300e053c593
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place_of_publication
+    - node.type.publication_stand_alone
+id: node.publication_stand_alone.field_place_of_publication
+field_name: field_place_of_publication
+entity_type: node
+bundle: publication_stand_alone
+label: 'Place of publication'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

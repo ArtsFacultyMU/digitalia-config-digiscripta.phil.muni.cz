@@ -1,0 +1,19 @@
+uuid: 8e25acda-8557-401d-b8b1-faf2b5443a58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_migration_id
+    - node.type.work
+id: node.work.field_migration_id
+field_name: field_migration_id
+entity_type: node
+bundle: work
+label: 'Migration ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
