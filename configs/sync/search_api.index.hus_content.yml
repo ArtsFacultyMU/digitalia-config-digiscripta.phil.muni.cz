@@ -9,6 +9,7 @@ dependencies:
     - field.storage.node.field_incipit
     - field.storage.node.field_language
     - field.storage.node.field_shelf_number
+    - search_api.server.default_solr_server
   module:
     - dgi_image_discovery
     - node
@@ -190,4 +191,4 @@ options:
   delete_on_fail: true
   index_directly: true
   track_changes_in_references: true
-server: null
+server: default_solr_server

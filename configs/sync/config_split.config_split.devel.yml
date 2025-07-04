@@ -16,6 +16,4 @@ complete_list:
   - islandora.settings
   - islandora_iiif.settings
   - openseadragon.settings
-  - search_api.server.default_solr_server
-  - matomo.settings
 partial_list: {  }
