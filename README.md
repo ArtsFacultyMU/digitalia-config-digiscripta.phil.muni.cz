@@ -1,0 +1,1 @@
+# digitalia-config-digiscripta.phil.muni.cz
