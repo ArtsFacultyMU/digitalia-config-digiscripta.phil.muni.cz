@@ -1,15 +1,15 @@
-uuid: d2e25b43-f6fc-47d9-b9b7-35a069c527d8
+uuid: c9be2554-7d58-4ae4-a160-bc3935249f70
 langcode: en
 status: true
 dependencies: {  }
-id: devel
-label: Devel
+id: production
+label: Production
 description: ''
 weight: 0
 stackable: false
 no_patching: false
 storage: folder
-folder: ../config/split/devel
+folder: ../config/split/production
 module: {  }
 theme: {  }
 complete_list:

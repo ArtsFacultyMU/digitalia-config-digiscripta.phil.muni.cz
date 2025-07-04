@@ -25,7 +25,6 @@ dependencies:
     - field.storage.node.field_subjects_name
     - field.storage.node.field_tags
     - field.storage.node.field_temporal_subject
-    - search_api.server.default_solr_server
   module:
     - controlled_access_terms
     - dgi_image_discovery
@@ -527,4 +526,4 @@ options:
   delete_on_fail: true
   index_directly: true
   track_changes_in_references: true
-server: default_solr_server
+server: null

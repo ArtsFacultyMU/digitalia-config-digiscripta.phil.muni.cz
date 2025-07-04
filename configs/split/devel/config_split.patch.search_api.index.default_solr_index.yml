@@ -1,0 +1,7 @@
+adding:
+  dependencies:
+    config:
+      - search_api.server.default_solr_server
+  server: default_solr_server
+removing:
+  server: null
